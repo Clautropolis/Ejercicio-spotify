@@ -1,5 +1,11 @@
-.my-container {
-     border: solid 3px red;
-     background: blue;
-    
-    }
+.header {background-color: black;
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          padding: 15px;}
+
+.icono-logo {width: 110px;}
+
+.icono-menu {width: 30px;}
+
+.section1 {background-color: #;}
