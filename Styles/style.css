@@ -1,6 +1,6 @@
 
 
-:root {--font: "Roboto";
+:root {--font:"Roboto";
 }
 
 body {
@@ -48,11 +48,11 @@ body {
 .planes { background-color: #26B758 ;
             color: white;
             padding: 10px;
-            padding-left: 120px;
-            padding-right: 120px;
+            padding-left: 100px;
+            padding-right: 200px;
             border-radius: 50px;
             border-style: none;
-            margin-left: 20px;
+            margin-left: 15px;
             }
 
 .parrafo-1{
@@ -62,10 +62,30 @@ body {
     line-height: 15px;
 }
 
-.section2 {display: flex;
+/* seccion 2 */
+
+.section2 { display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            gap:20px;
+            margin-bottom: 20px;
+
             }
+
+.titulo-seccion-2{
+             font-family:var(--font);
+            font-weight: bold;
+            text-align: center;
+            font-size: 30px;
+             margin-top: 30px;
+            margin-bottom: 20px;
+                
+            } 
+            
+
+
+            
+        
 
 .icon-benefit {width: 130px;
                 padding: 10px;}
@@ -74,3 +94,28 @@ body {
         }
 
 .div1 {}
+
+
+/*footer*/
+
+.footer{
+    background-color:black;
+    color: white;
+    font-family: var(--font);
+}
+
+.copyright{
+    display: flex;
+    justify-content: right;
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+
+}
+
+.info{
+    display: flex;
+    justify-content: left;
+    
+
+}
