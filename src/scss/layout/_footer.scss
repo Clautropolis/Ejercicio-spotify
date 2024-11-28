@@ -1,8 +1,22 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer{
+  background-color:black;
+  color: white;
+  font-family: var(--font);
 }
+
+.copyright{
+  display: flex;
+  justify-content: right;
+  padding-top: 15px;
+  padding-bottom: 30px;
+
+
+}
+
+.info{
+  display: flex;
+  justify-content: left;
+  
+
+}
+

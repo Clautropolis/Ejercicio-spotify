@@ -1,0 +1,45 @@
+.section1 {
+    background-color: rgb(82, 156, 241);
+    height: 50vh;
+    width: 100%;
+    color: white;
+    text-align: left;
+    }
+
+.titulo-seccion-1{
+     font-family: $font-main;
+     font-weight: bold;
+     font-size: 32px;
+     padding: 15px;
+     padding-top: 80px;
+}
+
+.subtitulo-1{
+    font-family: $font-main ;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.div-planes{
+    display:flex;
+    justify-content: center;
+}
+.planes { background-color: #26B758 ;
+            color: white;
+            font-family: $font-main ;
+            padding: 10px;
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+            border-radius: 50px;
+            border-style: none;
+            
+            }
+
+.parrafo-1{
+    font-size: 10px;
+    font-family: $font-main ;
+    padding: 20px;
+    padding-top: 30px;
+    line-height: 15px;
+}
