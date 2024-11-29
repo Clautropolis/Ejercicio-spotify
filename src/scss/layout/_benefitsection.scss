@@ -1,10 +1,16 @@
-.section2 { display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:20px;
-    margin-bottom: 20px;
+.container-article {display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;}
 
-    }
+.article {display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Roboto';
+        }
+        
+.title {font-size: 20px;
+        font-weight: bold;}
+
 
 .titulo-seccion-2{
      font-family: $font-main;
@@ -12,21 +18,7 @@
     text-align: center;
     font-size: 30px;
      margin-top: 30px;
-    margin-bottom: 20px;
-        
-    } 
-    
-
-
-    
-
+    margin-bottom: 20px;} 
 
 .icon-benefit {width: 130px;
         padding: 10px;}
-
-.article0 {display: flex;
-        @include article_function();
-        
-}
-
-.div1 {}
