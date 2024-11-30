@@ -55,8 +55,9 @@ export default defineConfig({
     },
   },
   server: {
-    watch: {
-      usePolling: true
+    open: "/index.html",
+      watch: {
+        usePolling: true
     }
   },
   plugins: [
